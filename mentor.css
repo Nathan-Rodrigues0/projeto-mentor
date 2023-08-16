@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+* {
+   margin: 0px;
+   padding: 0px;
+} 
+
+section {
+    width: 70%;
+    height: 400px;
+    display: flex;
+}
+
+.d1 {
+    background-color: chocolate;
+}
+
+.d2 {
+    background-color: aquamarine;
+}
+
+.d3 {
+    background-color: darkcyan;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
