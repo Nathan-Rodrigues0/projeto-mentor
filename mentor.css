@@ -8,10 +8,25 @@
 section {
     width: 80%;
     height: 480px;
-    margin: 10% auto;
+    margin: 15em auto;
     display: flex;
     box-shadow: 1px 1px 10px black;
     color: white;
+    min-width: 395px;
+}
+
+@media(max-width: 850px) {
+    section {
+        width: 395px;
+        height: 100%;
+        display: block;
+        margin: 200px auto;
+    }
+   
+    .d1, .d2, .d3 {
+        height: 550px;
+    }
+
 }
 
 .d1 {
@@ -77,10 +92,12 @@ p {
     text-align: left;
 }
 
-footer {
-    width: 100%;
-    background-color: rgb(0, 0, 0);
+#pfot {
+    background-color: black;
     color: white;
+    height: 50px;
+    padding-top: 20px;
+    font-size: 17px;
 }
 
 .attribution { font-size: 11px; text-align: center; }
