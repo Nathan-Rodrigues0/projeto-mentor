@@ -13,6 +13,7 @@ section {
     box-shadow: 1px 1px 10px black;
     color: white;
     min-width: 395px;
+    border-radius: 20px;
 }
 
 @media(max-width: 850px) {
@@ -25,12 +26,15 @@ section {
    
     .d1, .d2, .d3 {
         height: 550px;
+        
     }
 
 }
 
 .d1 {
     background-color: chocolate;
+     border-top-left-radius: 20px;
+     border-bottom-left-radius: 20px;
 }
 
 .d2 {
@@ -39,6 +43,8 @@ section {
 
 .d3 {
     background-color: darkcyan;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 h1 {
